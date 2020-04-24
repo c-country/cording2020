@@ -152,12 +152,19 @@ div#mainimage{
 ========================================= */
 
 div#left{
-    width: 575px;
-    height: 198px;
+    width: 555px;
+    height: 178px;
     background-color: #ffffff;
     float: left;
     margin-right: 20px;
     box-shadow: 0 2px 7px rgba(83, 78, 61, 0.3);
+    padding: 10px;
+}
+
+div#left h2{
+    font-size: 17px;
+    font-weight: bold;
+    color: #734339;
 }
 
 /* ========================================
