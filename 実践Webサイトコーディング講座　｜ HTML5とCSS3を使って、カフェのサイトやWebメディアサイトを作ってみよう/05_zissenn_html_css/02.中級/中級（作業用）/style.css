@@ -64,6 +64,10 @@ div#wrapper{
     margin: 0 auto;
 }
 
+.box-shadow{
+    box-shadow: 0 2px 7px rgba(83, 78, 61, 0.3);
+}
+
 /* ========================================
    ヘッダー用
 ========================================= */
@@ -144,7 +148,7 @@ div#mainimage{
     height: 290px;
     margin: 20px 0 20px 0;
     border: 5px solid #ffffff;
-    box-shadow: 0 2px 7px rgba(83, 78, 61, 0.3);
+    /* box-shadow: 0 2px 7px rgba(83, 78, 61, 0.3); */
 }
 
 /* ========================================
@@ -173,7 +177,14 @@ div#left ul li{
     font-size: 13px;
     font-weight: normal;
     color: #927e7a;
+    border-bottom: 1px dotted #d0d0d0;
+    line-height: 32px;
+}
 
+div#left ul{
+    overflow: scroll;
+    width: 555px;
+    height: 145px;
 }
 
 div#left ul li span{
@@ -191,8 +202,16 @@ div#left ul li span{
 div#right{
     width: 365px;
     height: 198px;
-    background-color: purple;
     float: left;
+}
+
+div#right ul li a#contact{
+    background-image: url(images/contact.jpg);
+    width: 365px;
+    height: 60px;
+    display: block;
+    box-shadow: 0 2px 7px rgba(83, 78, 61, 0.3);
+
 }
 
 div.clear{
