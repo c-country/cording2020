@@ -205,12 +205,28 @@ div#right{
     float: left;
 }
 
-div#right ul li a#contact{
-    background-image: url(images/contact.jpg);
+div#right ul li{
+    line-height: 60px;
+    
+}
+
+div#right ul li a{
     width: 365px;
     height: 60px;
     display: block;
-    box-shadow: 0 2px 7px rgba(83, 78, 61, 0.3);
+    font-size: 17px;
+    font-weight: bold;
+    color: #734339;
+    text-decoration: none;
+}
+
+div#right ul li a#contact{
+    background-image: url(images/contact.jpg);
+
+}
+
+div#right ul li a#blog{
+    background-image: url(images/blog.jpg);
 
 }
 
