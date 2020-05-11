@@ -157,7 +157,7 @@ div#mainimage{
 
 div#left{
     width: 555px;
-    height: 178px;
+    height: auto;
     background-color: #ffffff;
     float: left;
     margin-right: 20px;
@@ -165,7 +165,8 @@ div#left{
     padding: 10px;
 }
 
-div#left h2{
+div#left h2,
+div#left h3{
     font-size: 17px;
     font-weight: bold;
     color: #734339;
@@ -272,3 +273,24 @@ h2#heading{
     padding-left: 23px;
 }
 
+div#left dl{
+    margin-top: 11px;
+}
+
+div#left dl dt{
+    font-size: 15px;
+    font-weight: normal;
+    color: #734339;
+}
+
+div#left dl dd{
+    font-size: 13px;
+    font-weight: normal;
+    color: #927e92;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+div#left dl dd:last-child{
+    margin-bottom: 0;
+}
